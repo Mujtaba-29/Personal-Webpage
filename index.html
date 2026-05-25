@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Syed Mujtaba ul Hassan | Professor of Materials Engineering - PIEAS</title>
+    <meta name="description" content="Academic webpage of Dr. Syed Mujtaba ul Hassan, Professor of Materials Engineering at PIEAS. Expert in Nanomaterials, Physical Metallurgy, and Bio-nanotechnology.">
+    <meta name="keywords" content="Syed Mujtaba ul Hassan, PIEAS, Materials Engineering, Metallurgy, Nanotechnology, MXene, Tokyo Tech">
+    <meta name="author" content="Dr. Syed Mujtaba ul Hassan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-light">
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon"><i class="fas fa-university"></i></span>
+                <span class="logo-text">Dr. Syed Mujtaba <span class="gradient-text">ul Hassan</span></span>
+            </a>
+            
+            <div class="nav-links-wrapper">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#awards" class="nav-link">Awards &amp; Grants</a></li>
+                    <li><a href="#courses-labs" class="nav-link">Teaching &amp; Labs</a></li>
+                    <li><a href="#students" class="nav-link">Students</a></li>
+                    <li><a href="#timeline" class="nav-link">Journey</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-right-group">
+                <!-- Theme Switcher -->
+                <div class="theme-switcher" id="themeSwitcher">
+                    <button class="theme-btn active" data-theme="light" title="Light Mode"><i class="fas fa-sun"></i></button>
+                    <button class="theme-btn" data-theme="dark" title="Dark Mode"><i class="fas fa-moon"></i></button>
+                    <button class="theme-btn" data-theme="color" title="Color Mode"><i class="fas fa-palette"></i></button>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <div class="hero-grid-two">
+                <!-- Column 1: Info & Fun Fact -->
+                <div class="hero-left">
+                    <div class="hero-text">
+                        <p class="hero-greeting">Department of Metallurgy &amp; Materials Engineering</p>
+                        <h1 class="hero-name">Dr. Syed Mujtaba<br><span class="gradient-text">ul Hassan</span></h1>
+                        <p class="hero-title"><i class="fas fa-briefcase"></i> Professor &amp; Senior Researcher</p>
+                        <p class="hero-department">National Center of Nanotechnology, PIEAS</p>
+                        <div class="hero-tags">
+                            <span class="tag">Nanomaterials</span>
+                            <span class="tag">Metallurgy</span>
+                            <span class="tag">Biomedical Nanostructures</span>
+                            <span class="tag">AI/ML in Materials</span>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#about" class="btn btn-primary">About Me</a>
+                            <button id="btnGalaxyView" class="btn btn-cta"><i class="fas fa-rocket"></i> Space Journey</button>
+                            <a href="#contact" class="btn btn-outline">Contact Info</a>
+                        </div>
+                    </div>
+                    
+                    <div class="fact-card glass-card" id="factCard" style="margin-top: 24px;">
+                        <div class="fact-header">
+                            <span><i class="fas fa-lightbulb"></i> Materials Fun Fact</span>
+                            <button id="nextFactBtn" class="fact-btn" title="Next Fact"><i class="fas fa-arrow-right"></i> Next</button>
+                        </div>
+                        <p class="fact-content" id="factContent">Loading dynamic materials fact...</p>
+                    </div>
+                </div>
+
+                <!-- Column 2: Oval/Circle Photo & Scientific Clock/Calendar widget -->
+                <div class="hero-right">
+                    <div class="hero-image-container">
+                        <div class="hero-image-ring"></div>
+                        <img src="me.png" alt="Dr. Syed Mujtaba ul Hassan" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-user-tie"></i> Biography</p>
+                <h2 class="section-title">Academic &amp; Research <span class="gradient-text">Overview</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass-card animate-on-scroll">
+                    <p class="about-intro">I am a <strong>Professor of Materials Engineering</strong> at PIEAS University and a <strong>Senior Researcher</strong> at the National Center of Nanotechnology, Islamabad. I hold a <strong>PhD in Innovative &amp; Engineered Materials</strong> from the <strong>Tokyo Institute of Technology (Tokyo Tech), Japan</strong>.</p>
+                    <p>Over my 16+ year academic career, my research focus has pivoted on the chemical synthesis, surface modification, and functional characterization of advanced nanostructures. This includes 2D nanomaterials (MXenes), magnetic nanoparticles, core-shell architectures, upconversion systems, and materials design using computational frameworks like DFT and Machine Learning.</p>
+                    <p>I have led several competitive research projects funded by the Higher Education Commission (HEC) of Pakistan and international bodies like KIST (South Korea) for EMI shielding, nanomedicine contrast imaging, and chemical loop processes.</p>
+                    <div class="about-links">
+                        <a href="https://scholar.google.com.pk/citations?user=000au0oAAAAJ&hl=en" target="_blank" class="about-link"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                        <a href="https://www.researchgate.net/profile/Syed-Mujtaba-Ul-Hassan" target="_blank" class="about-link"><i class="fab fa-researchgate"></i> ResearchGate</a>
+                        <a href="https://github.com/Mujtaba-29" target="_blank" class="about-link"><i class="fab fa-github"></i> GitHub Profile</a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-card animate-on-scroll">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <div class="stat-number" data-target="48">0</div>
+                        <div class="stat-label">Students Advised</div>
+                    </div>
+                    <div class="stat-card glass-card animate-on-scroll">
+                        <div class="stat-icon"><i class="fas fa-quote-right"></i></div>
+                        <div class="stat-number" data-target="665">0</div>
+                        <div class="stat-label">Citations</div>
+                    </div>
+                    <div class="stat-card glass-card animate-on-scroll">
+                        <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">h-index</div>
+                    </div>
+                    <div class="stat-card glass-card animate-on-scroll">
+                        <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="stat-number" data-target="18">0</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== RESEARCH AREAS SECTION ==================== -->
+    <section class="section research-section" id="research">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-microscope"></i> Research Fields</p>
+                <h2 class="section-title">Areas of Scientific <span class="gradient-text">Expertise</span></h2>
+            </div>
+            <div class="research-grid">
+                <div class="research-card glass-card animate-on-scroll" data-color="#8C1515">
+                    <div class="research-card-top"></div>
+                    <div class="research-icon"><i class="fas fa-atom"></i></div>
+                    <h3>Nanomaterials Synthesis</h3>
+                    <p>Wet chemical synthesis of functional nanomaterials via sol-gel combustion, hydrothermal oxidation, chemical exfoliation of 2D MXenes, and core-shell architectures.</p>
+                </div>
+                <div class="research-card glass-card animate-on-scroll" data-color="#8C1515">
+                    <div class="research-card-top"></div>
+                    <div class="research-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Physical Metallurgy</h3>
+                    <p>Phase transformations, thermal treatment design, mechanical properties evaluation, gas nitriding, and corrosion-resistant coatings.</p>
+                </div>
+                <div class="research-card glass-card animate-on-scroll" data-color="#8C1515">
+                    <div class="research-card-top"></div>
+                    <div class="research-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Biomedical Applications</h3>
+                    <p>Biomedical contrast agents (MRI/PL/CT), photodynamic therapy, upconversion nanocapsules for drug delivery, and microbially-synthesized therapeutic oxides.</p>
+                </div>
+                <div class="research-card glass-card animate-on-scroll" data-color="#8C1515">
+                    <div class="research-card-top"></div>
+                    <div class="research-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Computational Materials &amp; AI</h3>
+                    <p>Machine Learning and Deep Learning models for predicting mechanical behavior, supercapacitance of materials, and satellite imagery analysis.</p>
+                </div>
+                <div class="research-card glass-card animate-on-scroll" data-color="#8C1515">
+                    <div class="research-card-top"></div>
+                    <div class="research-icon"><i class="fas fa-radiation"></i></div>
+                    <h3>Thermoluminescence Dosimetry</h3>
+                    <p>Synthesis and validation of PEG-coated rare-earth doped ZnO nanoparticles designed for dosimetry applications in nuclear environments.</p>
+                </div>
+                <div class="research-card glass-card animate-on-scroll" data-color="#8C1515">
+                    <div class="research-card-top"></div>
+                    <div class="research-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Environmental Remediation</h3>
+                    <p>MXene-coated materials and flower-like nanocomposites for adsorbing heavy metal ions (Cs⁺, Cr⁶⁺, Pb²⁺) from industrial effluents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PUBLICATIONS SECTION ==================== -->
+    <section class="section publications-section" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-book-open"></i> Publications</p>
+                <h2 class="section-title">Selected Scientific <span class="gradient-text">Contributions</span></h2>
+            </div>
+            <div class="pub-filters">
+                <button class="pub-filter active" data-filter="all">All Items</button>
+                <button class="pub-filter" data-filter="nano">Nanomaterials</button>
+                <button class="pub-filter" data-filter="bio">Biomedical</button>
+                <button class="pub-filter" data-filter="metal">Metallurgy &amp; Tech</button>
+            </div>
+            <div class="publications-list">
+                <div class="pub-card glass-card animate-on-scroll" data-category="nano">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-journal">Green Materials (ICE Publishing)</span>
+                        <h4 class="pub-title">Enhanced polyhydroxyalkanoates production: bacterial synergy transforms agricultural waste</h4>
+                        <p class="pub-authors">Kiran Nasir, Rida Batool, Muhammad Kamran, Syed Mujtaba ul Hassan, Nazia Jamil</p>
+                        <a href="https://doi.org/10.1680/jgrma.25.00030" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> View Article</a>
+                    </div>
+                </div>
+                <div class="pub-card glass-card animate-on-scroll" data-category="metal">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-journal">Crystal Growth &amp; Design (ACS)</span>
+                        <h4 class="pub-title">Synthesis of plate-like TS-1 zeolites with controllable b-axis thickness and Ti coordination states</h4>
+                        <p class="pub-authors">Hongyu Wang, Fumin Wang, Kaiwei Wang, Xubin Zhang, Changhao Bing, Xiaolu Fan, Tongxue Zhang, Syed Mujtaba ul Hassan</p>
+                        <a href="https://pubs.acs.org/doi/10.1021/acs.cgd.4c00210" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> View Article</a>
+                    </div>
+                </div>
+                <div class="pub-card glass-card animate-on-scroll" data-category="bio">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <span class="pub-journal">Inorganic Chemistry Communications (Elsevier)</span>
+                        <h4 class="pub-title">Magento-fluorescent uniform sub-micron up-conversion capsules for potential simultaneous MRI/PL imaging and drug delivery capabilities</h4>
+                        <p class="pub-authors">Syed Mujtaba ul Hassan, Tanzeela Anis, Yoshitaka Kitamoto</p>
+                        <a href="https://doi.org/10.1016/j.inoche.2024.112676" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> View Article</a>
+                    </div>
+                </div>
+                <div class="pub-card glass-card animate-on-scroll" data-category="bio">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <span class="pub-journal">Odontology (Springer Nature)</span>
+                        <h4 class="pub-title">Novel microbial synthesis of titania nanoparticles using probiotic Bacillus coagulans and its role in enhancing the microhardness of glass ionomer restorative materials</h4>
+                        <p class="pub-authors">Afsheen Mansoor, Emaan Mansoor, Mazhar Mehmood, Syed Mujtaba Ul Hassan, Atta Ullah Shah, Uzma Asjid, Akhilesh Rai, Paulo J Palma</p>
+                        <a href="https://doi.org/10.1007/s10266-024-00910-z" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> View Article</a>
+                    </div>
+                </div>
+                <div class="pub-card glass-card animate-on-scroll" data-category="nano">
+                    <div class="pub-year">2021</div>
+                    <div class="pub-content">
+                        <span class="pub-journal">Ceramics International (Elsevier)</span>
+                        <h4 class="pub-title">3D flower like δ-MnO2/MXene Nano-hybrids for the removal of hexavalent Cr from wastewater</h4>
+                        <p class="pub-authors">Abdul Rehman Khan, Sheheryar Khan Awan, Syed M Husnain, Nadir Abbas, Dalaver H Anjum, Naseeem Abbas, Mhamed Benaissa, Cyrus Raza Mirza, Syed Mujtaba-ul-Hassan, Faisal Shahzad</p>
+                        <a href="https://doi.org/10.1016/j.ceramint.2021.06.002" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> View Article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-more">
+                <a href="https://scholar.google.com.pk/citations?user=000au0oAAAAJ&hl=en" target="_blank" class="btn btn-secondary"><i class="fas fa-graduation-cap"></i> View All Publications on Google Scholar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== AWARDS SECTION ==================== -->
+    <section class="section awards-section" id="awards">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-trophy"></i> Awards &amp; Projects</p>
+                <h2 class="section-title">Academic Distinctions &amp; <span class="gradient-text">Grants</span></h2>
+            </div>
+            
+            <div class="awards-tab-container">
+                <div class="awards-tabs">
+                    <button class="award-tab-btn active" data-tab="medals"><i class="fas fa-award"></i> Honors &amp; Medals</button>
+                    <button class="award-tab-btn" data-tab="grants"><i class="fas fa-project-diagram"></i> Research Grants (PI / Co-PI)</button>
+                </div>
+                
+                <div class="awards-tab-content active" id="medals">
+                    <div class="awards-grid">
+                        <div class="award-card glass-card animate-on-scroll">
+                            <div class="award-badge"><i class="fas fa-graduation-cap"></i></div>
+                            <h3>PIEAS Gold Medal</h3>
+                            <p class="award-org">PIEAS, Islamabad</p>
+                            <p class="award-desc">Awarded the university Gold Medal and Certificate of Merit for achieving First Position overall in MS studies.</p>
+                        </div>
+                        <div class="award-card glass-card animate-on-scroll">
+                            <div class="award-badge"><i class="fas fa-award"></i></div>
+                            <h3>NESCOM Certificate of Merit</h3>
+                            <p class="award-org">NESCOM, Pakistan</p>
+                            <p class="award-desc">Recognized for academic excellence and securing top position overall in MS Nuclear Engineering (Materials Major).</p>
+                        </div>
+                        <div class="award-card glass-card animate-on-scroll">
+                            <div class="award-badge"><i class="fas fa-plane"></i></div>
+                            <h3>MEXT PhD Fellowship</h3>
+                            <p class="award-org">MEXT Government of Japan</p>
+                            <p class="award-desc">Received the highly competitive Japanese Government Ministry Fellowship for PhD research at Tokyo Tech.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="awards-tab-content" id="grants">
+                    <div class="grants-list">
+                        <div class="grant-card glass-card">
+                            <div class="grant-header">
+                                <span class="grant-status active">Active (PI)</span>
+                                <span class="grant-agency">HEC Pakistan (NRPU)</span>
+                            </div>
+                            <h3>Development of porous Hollow multicomponent shell capsules for biomedical imaging and treatment</h3>
+                            <p class="grant-role"><strong>Role:</strong> Principal Investigator | <strong>Funding:</strong> 7.7 Million PKR</p>
+                            <p class="grant-desc">Synthesizing hollow multi-functional core-shell microcapsules tailored for targeted drug delivery systems combined with MRI and photoluminescent imaging capabilities.</p>
+                        </div>
+                        <div class="grant-card glass-card">
+                            <div class="grant-header">
+                                <span class="grant-status active">Active (Co-PI)</span>
+                                <span class="grant-agency">NSFC China &amp; PSF Pakistan Joint Program</span>
+                            </div>
+                            <h3>Fe-encapsulated hollow zeolites used as oxygen carrier for chemical looping combustion: An experimental and computational study</h3>
+                            <p class="grant-role"><strong>Role:</strong> Co-Principal Investigator | <strong>Funding:</strong> 3.4 Million PKR</p>
+                            <p class="grant-desc">Collaborative research with Tianjin University synthesizing advanced hollow zeolite oxygen carriers to optimize chemical looping efficiency.</p>
+                        </div>
+                        <div class="grant-card glass-card">
+                            <div class="grant-header">
+                                <span class="grant-status active">Active (Co-PI)</span>
+                                <span class="grant-agency">KIST Korea Partnership Projects</span>
+                            </div>
+                            <h3>Magnetic and Conductive flexible MXene papers for Electromagnetic Interference (EMI) Shielding</h3>
+                            <p class="grant-role"><strong>Role:</strong> Co-Principal Investigator | <strong>Funding:</strong> 3.56 Million PKR (Combined)</p>
+                            <p class="grant-desc">Developing flexible delaminated transition metal carbide paper foils for high-attenuation shielding against electromagnetic waves.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== COURSES & LABS SECTION ==================== -->
+    <section class="section courses-labs-section" id="courses-labs">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-chalkboard-teacher"></i> Curriculum &amp; Research</p>
+                <h2 class="section-title">University Teaching &amp; <span class="gradient-text">Infrastructure</span></h2>
+            </div>
+
+            <div class="courses-labs-grid">
+                <!-- Taught Courses -->
+                <div class="courses-container glass-card animate-on-scroll">
+                    <h3><i class="fas fa-book"></i> Courses Taught</h3>
+                    <div class="courses-list">
+                        <div class="course-item">
+                            <div class="course-code">Graduate</div>
+                            <div class="course-info">
+                                <h4>Advanced Materials &amp; Reactor Engineering</h4>
+                                <p>Symmetry in Crystalline Materials, Structure and Properties of Materials, Nanomaterials Engineering, Nuclear Reactor Materials.</p>
+                            </div>
+                        </div>
+                        <div class="course-item">
+                            <div class="course-code">Undergrad</div>
+                            <div class="course-info">
+                                <h4>Metallurgy &amp; Mechanical Behavior</h4>
+                                <p>Mechanical Behavior of Materials, Physical Metallurgy I &amp; II, Heat Treatment, Nuclear Materials, Nanomaterials.</p>
+                            </div>
+                        </div>
+                        <div class="course-item">
+                            <div class="course-code">Labs</div>
+                            <div class="course-info">
+                                <h4>Experimental &amp; Surface Analysis Labs</h4>
+                                <p>AFM based materials surface characterization, mechanical behavior evaluation, and chemical synthesis lab processes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laboratory & Equipment -->
+                <div class="labs-facilities-container glass-card animate-on-scroll">
+                    <h3><i class="fas fa-toolbox"></i> Characterization &amp; Synthesis Facilities</h3>
+                    <div class="labs-facilities-list">
+                        <div class="facility-item">
+                            <div class="facility-icon"><i class="fas fa-compress-arrows-alt"></i></div>
+                            <div class="facility-info">
+                                <h4>Scanning Probe Microscopy Laboratory</h4>
+                                <p>Dedicated atomic force microscopy (AFM), magnetic force microscopy (MFM), and scanning tunneling microscopy (STM) surface diagnostics.</p>
+                            </div>
+                        </div>
+                        <div class="facility-item">
+                            <div class="facility-icon"><i class="fas fa-flask"></i></div>
+                            <div class="facility-info">
+                                <h4>Chemical Processing Infrastructure</h4>
+                                <p>Sol-gel combustion ovens, hydrothermal autoclaves, freeze dryers, zeta sizers, spin coaters, and high-temperature furnaces.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="facility-cta-note">
+                        <p><i class="fas fa-info-circle"></i> We actively collaborate with the National Center of Nanotechnology at PIEAS for advanced SEM, TEM, and XRD analysis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lab Image Gallery -->
+            <div class="lab-gallery-header">
+                <h3><i class="fas fa-images"></i> Inside the Metallurgy &amp; Nano Labs</h3>
+            </div>
+            <div class="lab-grid">
+                <div class="lab-card glass-card animate-on-scroll large">
+                    <img src="Imahe-2.jpeg" alt="Dr. Mujtaba working in the research laboratory with advanced synthesis equipment" loading="lazy">
+                    <div class="lab-overlay">
+                        <h4>Advanced Metallurgy Lab</h4>
+                        <p>Synthesis and characterization facilities at DMME PIEAS</p>
+                    </div>
+                </div>
+                <div class="lab-card glass-card animate-on-scroll">
+                    <div class="lab-placeholder" style="background: linear-gradient(135deg, rgba(140, 21, 21, 0.05), rgba(140, 122, 91, 0.1));">
+                        <i class="fas fa-vials"></i>
+                        <h4>Sol-gel Combustion</h4>
+                        <p>Nanomaterial chemical preparation</p>
+                    </div>
+                </div>
+                <div class="lab-card glass-card animate-on-scroll">
+                    <div class="lab-placeholder" style="background: linear-gradient(135deg, rgba(140, 122, 91, 0.1), rgba(12, 35, 64, 0.05));">
+                        <i class="fas fa-microscope"></i>
+                        <h4>Atomic Force Microscopy</h4>
+                        <p>High-resolution surface topography</p>
+                    </div>
+                </div>
+                <div class="lab-card glass-card animate-on-scroll">
+                    <div class="lab-placeholder" style="background: linear-gradient(135deg, rgba(12, 35, 64, 0.05), rgba(140, 21, 21, 0.05));">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Materials Informatics</h4>
+                        <p>ML property prediction models</p>
+                    </div>
+                </div>
+                <div class="lab-card glass-card animate-on-scroll">
+                    <div class="lab-placeholder" style="background: linear-gradient(135deg, rgba(140, 21, 21, 0.05), rgba(120, 120, 120, 0.1));">
+                        <i class="fas fa-dna"></i>
+                        <h4>Bio-materials</h4>
+                        <p>Theranostic contrast trials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== STUDENTS SECTION ==================== -->
+    <section class="section students-section" id="students">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-users"></i> Research Group</p>
+                <h2 class="section-title">Co-Authors &amp; <span class="gradient-text">Research Students</span></h2>
+                <p class="section-subtitle">Collaborators and students listed as first authors in our publications.</p>
+            </div>
+
+            <div class="students-container">
+                <div class="students-filter-tabs">
+                    <button class="student-filter-btn active" data-filter="all">All Researchers</button>
+                    <button class="student-filter-btn" data-filter="phd">PhD Scholars</button>
+                    <button class="student-filter-btn" data-filter="ms">MS Alumni</button>
+                </div>
+
+                <div class="students-grid">
+                    <!-- PhD Student 1 -->
+                    <div class="student-card glass-card animate-on-scroll" data-category="phd">
+                        <div class="student-avatar-container">
+                            <div class="student-avatar"><i class="fas fa-user-graduate"></i></div>
+                        </div>
+                        <h3>Tanzeela Anis</h3>
+                        <span class="student-role">PhD Candidate</span>
+                        <p class="student-thesis"><strong>Research:</strong> Solvothermal synthesis of upconversion core-shell beads and porous hollow capsules for bimodal imaging.</p>
+                        <div class="student-contact">
+                            <span><i class="fas fa-envelope"></i> tanzeela.anis@pieas.edu.pk</span>
+                        </div>
+                    </div>
+
+                    <!-- PhD Student 2 -->
+                    <div class="student-card glass-card animate-on-scroll" data-category="phd">
+                        <div class="student-avatar-container">
+                            <div class="student-avatar"><i class="fas fa-user-graduate"></i></div>
+                        </div>
+                        <h3>Noor Fatima</h3>
+                        <span class="student-role">PhD Candidate</span>
+                        <p class="student-thesis"><strong>Research:</strong> Layered double hydroxides and optical spectroscopy methods to evaluate E. coli remediation in water.</p>
+                        <div class="student-contact">
+                            <span><i class="fas fa-envelope"></i> noor.fatima@pieas.edu.pk</span>
+                        </div>
+                    </div>
+
+                    <!-- MS Student 1 -->
+                    <div class="student-card glass-card animate-on-scroll" data-category="ms">
+                        <div class="student-avatar-container">
+                            <div class="student-avatar"><i class="fas fa-user"></i></div>
+                        </div>
+                        <h3>Kiran Nasir</h3>
+                        <span class="student-role">MS Alumna</span>
+                        <p class="student-thesis"><strong>Research:</strong> Polyhydroxyalkanoates production and transformation of agricultural waste.</p>
+                        <div class="student-contact">
+                            <span><i class="fas fa-envelope"></i> kiran.nasir@pieas.edu.pk</span>
+                        </div>
+                    </div>
+
+                    <!-- MS Student 2 -->
+                    <div class="student-card glass-card animate-on-scroll" data-category="ms">
+                        <div class="student-avatar-container">
+                            <div class="student-avatar"><i class="fas fa-user"></i></div>
+                        </div>
+                        <h3>Samra Ghafoor</h3>
+                        <span class="student-role">MS Alumna</span>
+                        <p class="student-thesis"><strong>Research:</strong> Doping parameters of ZnO oxygen carriers for chemical looping combustion cycles.</p>
+                        <div class="student-contact">
+                            <span><i class="fas fa-envelope"></i> samra.ghafoor@pieas.edu.pk</span>
+                        </div>
+                    </div>
+
+                    <!-- MS Student 3 -->
+                    <div class="student-card glass-card animate-on-scroll" data-category="ms">
+                        <div class="student-avatar-container">
+                            <div class="student-avatar"><i class="fas fa-user"></i></div>
+                        </div>
+                        <h3>Abdul Rehman Khan</h3>
+                        <span class="student-role">MS Alumnus</span>
+                        <p class="student-thesis"><strong>Research:</strong> Flower-like MnO2/MXene hybrids for adsorption of hexavalent chromium in water.</p>
+                        <div class="student-contact">
+                            <span><i class="fas fa-envelope"></i> arkhan@pieas.edu.pk</span>
+                        </div>
+                    </div>
+
+                    <!-- MS Student 4 -->
+                    <div class="student-card glass-card animate-on-scroll" data-category="ms">
+                        <div class="student-avatar-container">
+                            <div class="student-avatar"><i class="fas fa-user"></i></div>
+                        </div>
+                        <h3>Adnan Saifullah</h3>
+                        <span class="student-role">MS Alumnus</span>
+                        <p class="student-thesis"><strong>Research:</strong> Synthesis of carbon-coated erbium hydroxide structures for high-performance MRI imaging.</p>
+                        <div class="student-contact">
+                            <span><i class="fas fa-envelope"></i> adnan.s@pieas.edu.pk</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="students-notice">
+                    <p><i class="fas fa-info-circle"></i> Graduate thesis positions and funded research assistantships are updated periodically based on grants. Interested applicants can send a CV via email.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION & EXPERIENCE TIMELINE ==================== -->
+    <section class="section timeline-section" id="timeline">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-road"></i> Academic Journey</p>
+                <h2 class="section-title">Academic &amp; <span class="gradient-text">Career Path</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item left animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <span class="timeline-badge experience">Experience</span>
+                        <h3>Professor of Materials Science</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> PIEAS &amp; National Center of Nanotechnology</p>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> April 2023 – Present</p>
+                        <p>Supervising Ph.D./M.S. thesis projects, chairing departmental committees, and spearheading research grants in functional 2D nanomaterials.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <span class="timeline-badge experience">Experience</span>
+                        <h3>Associate Professor</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> PIEAS University, Islamabad</p>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> March 2019 – April 2023</p>
+                        <p>Developed core MS Metallurgy &amp; Materials Engineering syllabus. Procured instrumentation for new laboratories.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <span class="timeline-badge experience">Experience</span>
+                        <h3>Assistant Professor</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> PIEAS University, Islamabad</p>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> October 2015 – March 2019</p>
+                        <p>Established wet synthesis setups at the National Center for Nanotechnology. Initiated HEC start-up grants.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <span class="timeline-badge education">Education</span>
+                        <h3>PhD — Innovative &amp; Engineered Materials</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> Tokyo Institute of Technology, Japan</p>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> September 2011 – September 2015</p>
+                        <p>Specialized in solvothermal upconversion nanoparticles and hollow capsule beads for targeted biomedical treatments.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <span class="timeline-badge education">Education</span>
+                        <h3>MS — Nuclear Engineering (Materials Major)</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> PIEAS, Islamabad</p>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> October 2004 – October 2006</p>
+                        <p>Graduated with Fellowship, Gold Medal, and Certificate of Merit for achieved outstanding academic score (GPA 3.9/4).</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <span class="timeline-badge education">Education</span>
+                        <h3>BS — Metallurgy &amp; Materials Engineering</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> University of Engineering &amp; Technology (UET), Lahore</p>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> January 2000 – January 2004</p>
+                        <p>Undergraduate degree completed with Honors. Research focused on Plain Carbon Steel aluminizing parameters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag"><i class="fas fa-paper-plane"></i> Correspondence</p>
+                <h2 class="section-title">Contact &amp; <span class="gradient-text">Office Info</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card glass-card animate-on-scroll">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>Email Addresses</h4>
+                        <p>
+                            <a href="mailto:mujtaba@pieas.edu.pk">mujtaba@pieas.edu.pk</a><br>
+                            <a href="mailto:mujtabanaqvi29@gmail.com">mujtabanaqvi29@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="contact-card glass-card animate-on-scroll">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Office Location</h4>
+                        <p>Department of Metallurgy &amp; Materials Engineering<br>PIEAS, Lehtrar Road, Nilore<br>Islamabad, 45650, Pakistan</p>
+                    </div>
+                    <div class="contact-card glass-card animate-on-scroll">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h4>Office Telephone</h4>
+                        <p>+92-(51)-959-3641 (DMME, PIEAS)<br>Mobile: +92-344-5524669</p>
+                    </div>
+                </div>
+                <form class="contact-form glass-card animate-on-scroll" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Research Collaboration / Student Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BOTTOM CHRONOMETER SECTION ==================== -->
+    <section class="section chronometer-section" id="chronometer-widget" style="padding: 40px 0; background: rgba(0, 0, 0, 0.02); border-top: 1px solid var(--clr-border);">
+        <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+            <div class="section-header" style="margin-bottom: 10px; text-align: center;">
+                <p class="section-tag"><i class="fas fa-history"></i> Astrolabe Dial</p>
+                <h3 style="font-size: 1.6rem; font-family: var(--ff-heading); margin-top: 5px;">Antikythera Chronometer</h3>
+            </div>
+            <!-- Ancient Steampunk Astrolabe Clock & Calendar Widget -->
+            <div class="steampunk-chronometer glass-card animate-on-scroll" style="margin: 0 auto;">
+                <div class="steampunk-header">
+                    <span class="gear-icon spinning"><i class="fas fa-cog"></i></span>
+                    <span class="steampunk-title">ANTIKYTHERA CHRONOMETER</span>
+                    <span class="gear-icon spinning-counter"><i class="fas fa-cog"></i></span>
+                </div>
+                <div class="steampunk-display">
+                    <!-- Ancient Clock Mechanism -->
+                    <div class="mechanical-clock">
+                        <div class="clock-face">
+                            <div class="clock-gears">
+                                <div class="gear gear-large"></div>
+                                <div class="gear gear-medium"></div>
+                                <div class="gear gear-small"></div>
+                            </div>
+                            <div class="clock-numbers">
+                                <span class="num-12">XII</span>
+                                <span class="num-3">III</span>
+                                <span class="num-6">VI</span>
+                                <span class="num-9">IX</span>
+                            </div>
+                            <div class="clock-hand hour-hand" id="hourHand"></div>
+                            <div class="clock-hand minute-hand" id="minHand"></div>
+                            <div class="clock-hand second-hand" id="secHand"></div>
+                            <div class="center-pin"></div>
+                        </div>
+                        <div class="digital-vintage-time" id="liveClock">12:00:00 PM</div>
+                    </div>
+                    
+                    <!-- Ancient Astrolabe Calendar -->
+                    <div class="mechanical-calendar">
+                        <div class="calendar-dial-header">
+                            <span class="vintage-date" id="liveDate">May 25, 2026</span>
+                        </div>
+                        <div class="astrolabe-calendar" id="miniCalendar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><span class="gradient-text">Dr. Syed Mujtaba ul Hassan</span></h3>
+                    <p>Professor of Materials Engineering — DMME, PIEAS</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://scholar.google.com.pk/citations?user=000au0oAAAAJ&hl=en" target="_blank" aria-label="Google Scholar" class="social-link"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://www.researchgate.net/profile/Syed-Mujtaba-Ul-Hassan" target="_blank" aria-label="ResearchGate" class="social-link"><i class="fab fa-researchgate"></i></a>
+                    <a href="https://github.com/Mujtaba-29" target="_blank" aria-label="GitHub" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:mujtaba@pieas.edu.pk" aria-label="Email" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dr. Syed Mujtaba ul Hassan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ==================== 3D SPACE JOURNEY OVERLAY ==================== -->
+    <div id="galaxyView" class="galaxy-overlay">
+        <!-- Dual background layers for smooth morphing transitions -->
+        <div id="galaxyBg1" class="galaxy-bg-slide active"></div>
+        <div id="galaxyBg2" class="galaxy-bg-slide"></div>
+
+
+
+        <!-- Ambient sound toggle and return button -->
+        <div class="space-controls">
+            <button id="btnExitGalaxy" class="space-control-btn" title="Return to Earth"><i class="fas fa-globe"></i> Return to Earth</button>
+            <button id="btnMuteSpace" class="space-control-btn" title="Toggle Soundtrack"><i class="fas fa-volume-mute"></i> Sound On</button>
+        </div>
+
+        <div class="cockpit-container">
+            <!-- Left Side: Flight Navigation Map (Always fits on screen) -->
+            <div class="cockpit-radar-panel">
+                <div class="radar-header">
+                    <span class="radar-scan-line"></span>
+                    <i class="fas fa-satellite-dish"></i> TRAJECTORY MONITOR // EARTH-TO-MARS
+                </div>
+                <div class="radar-map-viewport">
+                    <!-- Trajectory flight path curve -->
+                    <svg class="radar-svg-path" viewBox="0 0 100 400">
+                        <path id="flightPath" d="M 50,380 Q 20,280 50,200 T 80,40" fill="none" stroke="rgba(0, 242, 254, 0.15)" stroke-width="3" stroke-dasharray="6,4" />
+                        <path id="flightPathActive" d="M 50,380 Q 20,280 50,200 T 80,40" fill="none" stroke="#00f2fe" stroke-width="3" stroke-dasharray="6,4" stroke-dashoffset="0" />
+                    </svg>
+
+                    <!-- Space shuttle moving along the path -->
+                    <div class="radar-ship" id="radarShip">
+                        <i class="fas fa-rocket"></i>
+                        <span class="thruster-fire"></span>
+                    </div>
+
+                    <!-- Stops mapped along trajectory -->
+                    <div class="radar-stop active" data-index="0" style="bottom: 5%; left: 50%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Earth Launchpad</span>
+                    </div>
+                    <div class="radar-stop" data-index="1" style="bottom: 18%; left: 34%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">LEO Orbit</span>
+                    </div>
+                    <div class="radar-stop" data-index="2" style="bottom: 31%; left: 24%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Lunar Relay</span>
+                    </div>
+                    <div class="radar-stop" data-index="3" style="bottom: 44%; left: 28%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Asteroid Belt</span>
+                    </div>
+                    <div class="radar-stop" data-index="4" style="bottom: 57%; left: 42%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Deep Space</span>
+                    </div>
+                    <div class="radar-stop" data-index="5" style="bottom: 70%; left: 58%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Phobos Gate</span>
+                    </div>
+                    <div class="radar-stop" data-index="6" style="bottom: 83%; left: 72%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Martian Orbit</span>
+                    </div>
+                    <div class="radar-stop" data-index="7" style="bottom: 95%; left: 80%; transform: translate(-50%, 0);">
+                        <span class="stop-dot"></span>
+                        <span class="stop-label">Mars Surface</span>
+                    </div>
+                </div>
+                <div class="radar-footer">
+                    WARPING COILS: CHARGED
+                </div>
+            </div>
+
+            <!-- Right Side: Hologram Terminal Stop Details (Always centered and fits on screen) -->
+            <div class="cockpit-terminal-panel">
+                <div class="terminal-hud-header">
+                    <span class="status-indicator-dot pulsing"></span>
+                    MISSION CONTROL // HU-CONSOLE
+                </div>
+
+                <div class="terminal-screens-container">
+                    <!-- Stop 1: Earth Launchpad -->
+                    <div class="terminal-stop-screen active" id="stop-screen-0">
+                        <span class="terminal-badge-stop">STOP 1 // EARTH LAUNCHPAD</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>0 KM (GROUND STATION)</strong></div>
+                        <h2>About Dr. Mujtaba</h2>
+                        <p>Preparing for deep space transit. Dr. Syed Mujtaba ul Hassan is a Professor of Materials Engineering at PIEAS and a Senior Researcher at the National Center of Nanotechnology. His academic expertise centers on solvothermal nanostructures and functional physical metallurgy.</p>
+                        <a href="#about" class="station-action-btn" onclick="exitGalaxyAndScroll('#about')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 2: LEO Orbit -->
+                    <div class="terminal-stop-screen" id="stop-screen-1">
+                        <span class="terminal-badge-stop">STOP 2 // LOW EARTH ORBIT</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>400 KM</strong></div>
+                        <h2>Advanced Research</h2>
+                        <p>Conducting scientific scans. Research pivots on chemical synthesis and modification of 2D MXene carbides, thermal heat treatments, Gas Nitriding, and AI/ML predictive modeling of reactor materials properties.</p>
+                        <a href="#research" class="station-action-btn" onclick="exitGalaxyAndScroll('#research')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 3: Lunar Relay -->
+                    <div class="terminal-stop-screen" id="stop-screen-2">
+                        <span class="terminal-badge-stop">STOP 3 // LUNAR RELAY HUB</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>384,400 KM</strong></div>
+                        <h2>Scientific Contributions</h2>
+                        <p>Broadcasting publications telemetry. Dr. Hassan has co-authored numerous peer-reviewed papers in high-impact journals (e.g. Green Materials, Inorganic Chemistry Communications, and Ceramics International) with 600+ citations.</p>
+                        <a href="#publications" class="station-action-btn" onclick="exitGalaxyAndScroll('#publications')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 4: Asteroid Belt -->
+                    <div class="terminal-stop-screen" id="stop-screen-3">
+                        <span class="terminal-badge-stop">STOP 4 // ASTEROID BELT MINING</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>250,000,000 KM (1.67 AU)</strong></div>
+                        <h2>HEC Grants &amp; Honors</h2>
+                        <p>Securing resource allocations. Principal Investigator for 7.7 Million PKR HEC research grant on multicomponent hollow shell capsules, and recipient of the prestigious Japanese MEXT PhD Fellowship and PIEAS Gold Medal.</p>
+                        <a href="#awards" class="station-action-btn" onclick="exitGalaxyAndScroll('#awards')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 5: Deep Space -->
+                    <div class="terminal-stop-screen" id="stop-screen-4">
+                        <span class="terminal-badge-stop">STOP 5 // DEEP SPACE OBSERVATORY</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>4.2 LIGHT YEARS (approx. 40 Trillion KM)</strong></div>
+                        <h2>Teaching &amp; Laboratories</h2>
+                        <p>Training the spacecraft crew. Directs Reactor Engineering, Physical Metallurgy, and Surface AFM Labs. Providing experimental diagnostic setups for advanced atomic-force topography characterization.</p>
+                        <a href="#courses-labs" class="station-action-btn" onclick="exitGalaxyAndScroll('#courses-labs')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 6: Phobos Gate -->
+                    <div class="terminal-stop-screen" id="stop-screen-5">
+                        <span class="terminal-badge-stop">STOP 6 // PHOBOS GATEWAY</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>224,990,000 KM</strong></div>
+                        <h2>Research Co-Authors</h2>
+                        <p>Scanning surrounding explorer modules. Collaborating with graduate researchers and first authors (Tanzeela Anis, Noor Fatima, Kiran Nasir, Samra Ghafoor, and Abdul Rehman) on funded materials engineering publications.</p>
+                        <a href="#students" class="station-action-btn" onclick="exitGalaxyAndScroll('#students')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 7: Martian Orbit -->
+                    <div class="terminal-stop-screen" id="stop-screen-6">
+                        <span class="terminal-badge-stop">STOP 7 // MARTIAN ORBIT ENTRANCE</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>224,999,600 KM</strong></div>
+                        <h2>Career Journey</h2>
+                        <p>Plotting descent vectors. Traversed a 16+ year academic timeline from BS student at UET Lahore, to Gold Medalist MS, MEXT Scholar at Tokyo Tech, and promotion to Full Professor in April 2023.</p>
+                        <a href="#timeline" class="station-action-btn" onclick="exitGalaxyAndScroll('#timeline')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+
+                    <!-- Stop 8: Mars Surface -->
+                    <div class="terminal-stop-screen" id="stop-screen-7">
+                        <span class="terminal-badge-stop">STOP 8 // MARS COLONY SURFACE</span>
+                        <div class="hud-distance-readout"><i class="fas fa-route"></i> DISTANCE FROM EARTH: <strong>225,000,000 KM (Landed)</strong></div>
+                        <h2>Contact Headquarters</h2>
+                        <p>Establishing stable communication channels. Stable links at DMME, PIEAS, Nilore, Islamabad. Direct email access via mujtaba@pieas.edu.pk and official mobile lines.</p>
+                        <a href="#contact" class="station-action-btn" onclick="exitGalaxyAndScroll('#contact')"><i class="fas fa-sign-in-alt"></i> Land on Site Section</a>
+                    </div>
+                </div>
+
+                <div class="terminal-hud-footer">
+                    <span class="warp-instruction">USE WHEEL SCROLL OR ARROW KEYS TO NAVIGATION SYSTEMS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="script.js"></script>
+</body>
+</html>
